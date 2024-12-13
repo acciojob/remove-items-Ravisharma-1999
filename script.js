@@ -6,3 +6,4 @@ if(selectedIndex !== -1){
 	btn.remove(selectIndex)
 }
 }
+let btn = getElementById("btn").addEventListner(onclick,removeColor())

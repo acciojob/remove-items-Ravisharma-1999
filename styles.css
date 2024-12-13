@@ -1,9 +1,0 @@
-/*  your css code here. If applicable */
- function removeColor() {
-            const colorSelect = document.getElementById('colorSelect'); // Get dropdown element
-            const selectedIndex = colorSelect.selectedIndex; // Get the index of selected option
-
-            if (selectedIndex !== -1) { 
-                colorSelect.remove(selectedIndex); // Remove the selected option
-            }
-        }
